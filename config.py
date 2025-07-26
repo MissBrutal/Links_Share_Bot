@@ -10,7 +10,7 @@ APP_ID = int(os.environ.get("APP_ID", "21642624"))
 API_HASH = os.environ.get("API_HASH", "11af98e6c638725a6068667d3fc39c05")
 
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "1885113059 6318243977"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1885113059"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database

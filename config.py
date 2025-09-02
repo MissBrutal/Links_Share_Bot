@@ -11,13 +11,13 @@ APP_ID = int(os.environ.get("APP_ID", "21642624"))
 API_HASH = os.environ.get("API_HASH", "11af98e6c638725a6068667d3fc39c05")
 
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "6318243977"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1885113059"))
 PORT = os.environ.get("PORT", "8080")
 
 id_pattern = re.compile(r'^.\d+$')
 
 # Force Subscribe Channel
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002676662901').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002494675107 -1002786511545').split()]
 # Database
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://babujiddi19:sy77NpcZtlCOnh6Q@cluster0.rljv4g1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "links")

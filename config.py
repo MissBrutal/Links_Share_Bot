@@ -6,7 +6,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Recommended
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8068291980:AAGPgOuGS5BWYCVvyyfJp_ls3P9g59j9GbM")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "21642624"))
 API_HASH = os.environ.get("API_HASH", "11af98e6c638725a6068667d3fc39c05")
 
@@ -19,7 +19,7 @@ id_pattern = re.compile(r'^.\d+$')
 # Force Subscribe Channel
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002494675107 -1002786511545 -1003063143310').split()]
 # Database
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://babujiddi19:sy77NpcZtlCOnh6Q@cluster0.rljv4g1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DB_URI", "")
 DB_NAME = os.environ.get("DB_NAME", "links")
 
 #Auto approve 

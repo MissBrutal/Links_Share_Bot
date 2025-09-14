@@ -32,8 +32,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 # Start pic
-START_PIC_FILE_ID = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
-START_IMG = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
+START_PIC_FILE_ID = "https://envs.sh/A3u.jpg"
+START_IMG = "https://envs.sh/A3u.jpg"
 # Messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ. ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ, ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ʟɪɴᴋs ᴀɴᴅ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟs sᴀғᴇ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Filmaze_Movies'>Venom</a></blockquote></b>")
 HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/Ig_1venom>Venom</a>\n» Our Community: <a href=https://t.me/Filmaze_Support>Support Group</a>\n» Anime Channel: <a href=https://t.me/itachi24x7>TJ UltraPlix</a>\n» Ongoing Anime: <a href=https://t.me/itachi24x7>TJULTRAPLIX </a>\n» Developer: <a href=https://t.me/Ig_1venom>Venom</a></b>")

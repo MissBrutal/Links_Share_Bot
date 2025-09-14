@@ -1,5 +1,5 @@
 pyrogram
-pyrofork
+pyrofork = 2.3.60
 TgCrypto 
 pyromod
 python-dotenv

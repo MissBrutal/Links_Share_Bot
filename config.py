@@ -17,7 +17,7 @@ PORT = os.environ.get("PORT", "8080")
 id_pattern = re.compile(r'^.\d+$')
 
 # Force Subscribe Channel
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002494675107 -1002786511545 -1003063143310').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL',).split()]
 # Database
 DB_URI = os.environ.get("DB_URI", "")
 DB_NAME = os.environ.get("DB_NAME", "links")
